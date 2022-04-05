@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Meme Generator</title>
+        <link rel="stylesheet" href="memeGen.css">
+    </head>
+    <body>
+         <h1>😂 Meme Generator 😂</h1>
+
+      
+         <p>
+         <input type="text" id= "topText" placeholder="Top-Text">
+         </p>
+        
+         <p>
+            <input type="text" id= "bottomText" placeholder="Bottom-Text">
+         </p>
+            
+
+     
+
+         <p>
+            Choose an Image <input type="file" id="imgInput" accept="image/*">
+         </p>
+
+           
+         <p>
+            Press Generate to see <button id="generateBtn">Generate</button>
+         </p>
+
+         <div>
+            Select Font Color <input type="color" name="insideFont" id="insideFont">
+         </div>
+
+         <p>
+            <canvas id="memeCanvas"></canvas>
+         </p>
+         
+        <script src="memeGen.js"></script>
+    </body>

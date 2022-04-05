@@ -1,0 +1,22 @@
+:root {
+    line-height: 0.1em;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+body {
+    margin: 40px;
+    background-color: rgb(211, 205, 205);
+
+  }
+
+
+#meme-canvas {
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* width: 300px;
+    font-size: 100rem;
+    font-weight: 200; */
+    
+}
+/* Two issues bottom text align for letters like p and font color changer */
